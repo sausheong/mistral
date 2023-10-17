@@ -59,8 +59,8 @@ async function runScript(prompt, action="/run") {
         $("#"+outId).append(decoder.decode(value));
         window.scrollTo({top: document.body.scrollHeight, behavior:'smooth' });
     }
-    $(".js-loading").removeClass("spinner-border"); 
-    hljs.highlightAll();   
+    $(".js-loading").removeClass("spinner-border");        
     $("#"+outId).html(converter.makeHtml($("#"+outId).html()));
     window.scrollTo({top: document.body.scrollHeight, behavior:'smooth' });    
+    hljs.highlightAll();
 }
