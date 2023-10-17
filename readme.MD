@@ -1,4 +1,4 @@
-<img src="static/logo.png" alt="logo" width="150px"/>
+<img src="static/logo.png" alt="logo" width="300px"/>
 
 Mistral is a simple ChatGPT clone built with Go, using OpenAI APIs.
 
